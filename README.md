@@ -32,7 +32,7 @@ Open your channel via web, check the URL after the `#`.
 It should start with -100.
 ```https://web.telegram.org/a/#-100123456789```
 
-### DISCORD_CHANNEL_ID
+### DISCORD_CHANNEL_ID
 
 Right click on any message in the channel and `Copy Link`.
 It's a `/` separated list of 3 IDs.
@@ -41,6 +41,6 @@ Use the second one.
 https://discord.com/channels/1234567890123456789/1234567890123456789/1234567890123456789
 ```
 
-### LICENSE
+### LICENSE
 
 MIT

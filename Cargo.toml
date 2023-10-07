@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.75"
-tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
 dotenv = "0.15.0"
-serenity = "0.11.6"
-teloxide = { version = "0.12.2", features = ["rustls"] }
+tokio = { version = "1", default-features = false, features = ["macros", "rt-multi-thread"] }
+serenity = { version = "0.11.6", default-features = false, features = ["standard_framework", "framework", "client", "builder", "gateway", "rustls_backend"] }
+teloxide = { version = "0.12.2", default-features = false, features = ["rustls"] }
