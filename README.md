@@ -41,6 +41,6 @@ Use the second one.
 https://discord.com/channels/1234567890123456789/1234567890123456789/1234567890123456789
 ```
 
-### LICENSE
+### LICENSE
 
 MIT
